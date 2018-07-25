@@ -11,7 +11,7 @@ namespace Demo.DAL.Entities.User
     {
         public User()
         {
-
+            this.Records = new HashSet<Record>();
         }
 
         public String Name { get; set; }
@@ -19,5 +19,7 @@ namespace Demo.DAL.Entities.User
         public String Tel { get; set; }
 
         public Int32 Level { get; set; }
+
+        public virtual ICollection<Record> Records { get; set; }
     }
 }

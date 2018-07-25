@@ -4,3 +4,15 @@ D:\Projects\Demo\Demo.DAL\obj\Debug\Demo.DAL.csprojAssemblyReference.cache
 D:\Projects\Demo\Demo.DAL\obj\Debug\Demo.DAL.csproj.CoreCompileInputs.cache
 D:\Projects\Demo\Demo.DAL\obj\Debug\Demo.DAL.dll
 D:\Projects\Demo\Demo.DAL\obj\Debug\Demo.DAL.pdb
+D:\GitHubRep\Demo\Demo.DAL\bin\Debug\Demo.DAL.dll.config
+D:\GitHubRep\Demo\Demo.DAL\bin\Debug\Demo.DAL.dll
+D:\GitHubRep\Demo\Demo.DAL\bin\Debug\Demo.DAL.pdb
+D:\GitHubRep\Demo\Demo.DAL\bin\Debug\EntityFramework.dll
+D:\GitHubRep\Demo\Demo.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHubRep\Demo\Demo.DAL\bin\Debug\EntityFramework.xml
+D:\GitHubRep\Demo\Demo.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHubRep\Demo\Demo.DAL\obj\Debug\Demo.DAL.csprojAssemblyReference.cache
+D:\GitHubRep\Demo\Demo.DAL\obj\Debug\Demo.DAL.csproj.CoreCompileInputs.cache
+D:\GitHubRep\Demo\Demo.DAL\obj\Debug\Demo.DAL.csproj.CopyComplete
+D:\GitHubRep\Demo\Demo.DAL\obj\Debug\Demo.DAL.dll
+D:\GitHubRep\Demo\Demo.DAL\obj\Debug\Demo.DAL.pdb
