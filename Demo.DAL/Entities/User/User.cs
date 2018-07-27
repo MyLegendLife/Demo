@@ -11,7 +11,7 @@ namespace Demo.DAL.Entities.User
     {
         public User()
         {
-            this.Records = new HashSet<Record>();
+            Records = new HashSet<Record>();
         }
 
         public String Name { get; set; }
