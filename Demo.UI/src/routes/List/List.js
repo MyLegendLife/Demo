@@ -56,7 +56,6 @@ export default class SearchList extends Component {
     const routes = getRoutes(match.path, routerData);
 
     return (
-      
       <PageHeaderLayout
         title="搜索列表"
         content={mainSearch}
@@ -69,7 +68,6 @@ export default class SearchList extends Component {
             <Route key={item.key} path={item.path} component={item.component} exact={item.exact} />
           ))}
         </Switch>
-        <Input placeholder="Basic usage" />
       </PageHeaderLayout>
     );
   }

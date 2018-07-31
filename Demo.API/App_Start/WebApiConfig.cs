@@ -19,6 +19,9 @@ namespace Demo.API
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            //启用跨域　　
+            config.EnableCors();
         }
     }
 }

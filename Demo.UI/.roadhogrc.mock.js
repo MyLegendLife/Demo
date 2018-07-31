@@ -137,7 +137,4 @@ const proxy = {
   },
 };
 
-// export default (noProxy ? {} : delay(proxy, 1000));
-export default {
-  'GET /api/(.*)': 'http://localhost/api/',
-};
+export default (noProxy ? {} : delay(proxy, 1000));

@@ -22,4 +22,6 @@ namespace Demo.DAL.Entities.User
 
         public virtual User User { get; set; }
     }
+
+    
 }
