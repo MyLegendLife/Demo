@@ -2,6 +2,21 @@ import { isUrl } from '../utils/utils';
 
 const menuData = [
   {
+    name: '学生管理',
+    icon: 'dashboard',
+    path: 'student',
+    children: [
+      {
+        name: '首页',
+        path: 'index',
+      },
+      {
+        name: 'mine',
+        path: 'mine',
+      },
+    ],
+  },
+  {
     name: 'dashboard',
     icon: 'dashboard',
     path: 'dashboard',
