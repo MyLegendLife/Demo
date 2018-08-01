@@ -4,14 +4,14 @@ import { Table } from 'antd';
 
 @connect(({ student, loading }) => ({
   student,
-  loading: loading.effects['student/getData'],
+  loading: loading.effects['student/getUsers'],
 }))
-export default class Mine extends Component {
+export default class Index extends Component {
   componentDidMount() {
     const { dispatch } = this.props;
 
     dispatch({
-      type: 'student/getData',
+      type: 'student/getUsers',
     });
   }
 
@@ -21,19 +21,29 @@ export default class Mine extends Component {
 
     const columns = [
       {
+        title: 'Id',
+        dataIndex: 'id',
+        key: 'id',
+      },
+      {
         title: '姓名',
         dataIndex: 'name',
         key: 'name',
       },
       {
-        title: '年龄',
-        dataIndex: 'age',
-        key: 'age',
+        title: '电话',
+        dataIndex: 'tel',
+        key: 'tel',
       },
       {
-        title: '住址',
-        dataIndex: 'address',
-        key: 'address',
+        title: '等级',
+        dataIndex: 'level',
+        key: 'level',
+      },
+      {
+        title: '创建时间',
+        dataIndex: 'createDate',
+        key: 'createDate',
       },
     ];
 

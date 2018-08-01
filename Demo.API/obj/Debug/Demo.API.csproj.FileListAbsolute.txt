@@ -147,3 +147,6 @@ C:\Users\Administrator\Desktop\Demo\Demo.API\obj\Debug\Demo.API.pdb
 C:\Users\Administrator\Desktop\Demo\Demo.API\bin\Demo.DAL.dll
 C:\Users\Administrator\Desktop\Demo\Demo.API\bin\Demo.DAL.pdb
 C:\Users\Administrator\Desktop\Demo\Demo.API\bin\Demo.DAL.dll.config
+C:\Users\Administrator\Desktop\Demo\Demo.API\bin\System.Web.Cors.dll
+C:\Users\Administrator\Desktop\Demo\Demo.API\bin\System.Web.Http.Cors.dll
+C:\Users\Administrator\Desktop\Demo\Demo.API\bin\System.Web.Http.Cors.xml

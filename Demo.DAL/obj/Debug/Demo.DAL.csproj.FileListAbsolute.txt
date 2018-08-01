@@ -33,9 +33,9 @@ C:\Users\Administrator\Desktop\Demo\Demo.DAL\obj\Debug\Demo.DAL.csproj.GenerateR
 C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\System.Net.Http.Formatting.dll
 C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\System.Web.Cors.dll
-C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\System.Web.Http.Cors.dll
 C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\System.Web.Http.dll
 C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\System.Web.Http.xml
-C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\System.Web.Http.Cors.xml
+C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\zh-Hans\System.Web.Http.resources.dll
