@@ -22,6 +22,8 @@ namespace Demo.API
 
             //启用跨域　　
             config.EnableCors();
+
+            //config.Formatters.JsonFormatter.SerializerSettings.PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.Objects;
         }
     }
 }

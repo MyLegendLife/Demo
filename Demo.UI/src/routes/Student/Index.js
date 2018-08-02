@@ -17,39 +17,39 @@ export default class Index extends Component {
 
   render() {
     const { student } = this.props;
-    const { mineData } = student;
+    const { users } = student;
 
     const columns = [
       {
         title: 'Id',
-        dataIndex: 'id',
-        key: 'id',
+        dataIndex: 'Id',
+        key: 'Id',
       },
       {
         title: '姓名',
-        dataIndex: 'name',
-        key: 'name',
+        dataIndex: 'Name',
+        key: 'Name',
       },
       {
         title: '电话',
-        dataIndex: 'tel',
-        key: 'tel',
+        dataIndex: 'Tel',
+        key: 'Tel',
       },
       {
         title: '等级',
-        dataIndex: 'level',
-        key: 'level',
+        dataIndex: 'Level',
+        key: 'Level',
       },
       {
         title: '创建时间',
-        dataIndex: 'createDate',
-        key: 'createDate',
+        dataIndex: 'CreateDate',
+        key: 'CreateDate',
       },
     ];
 
     return (
       <div>
-        <Table dataSource={mineData} columns={columns} />
+        <Table dataSource={users} columns={columns} />
       </div>
     );
   }

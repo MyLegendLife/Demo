@@ -4,6 +4,6 @@ export async function getMineData() {
   return request('/api/user/getstudents');
 }
 
-export async function getUsers() {
+export async function getUsersData() {
   return request('/api/user/getUsers');
 }

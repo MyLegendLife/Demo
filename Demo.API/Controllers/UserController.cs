@@ -1,4 +1,5 @@
 ﻿using Demo.DAL;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,7 @@ namespace Demo.API.Controllers
     [EnableCors("http://localhost","*","*")]
     public class UserController : ApiController
     {
-        public string GetUsers()
+        public JArray GetUsers()
         {
             //using (var context = new DemoContext())
             //{
@@ -27,18 +28,18 @@ namespace Demo.API.Controllers
             //    return jsonData.ToString();
             //} 
 
-            string res = "";
             using (var context = new DemoContext())
             {
                 var users = context.Users;
 
-                foreach (var user in users)
-                {
-                    res += user.Id;
-                }
-            }
+                //string json = JsonConvert.SerializeObject(users);
 
-            return res;
+                string json = ToJsonString(users);
+
+                var res = JArray.Parse(json);
+                
+                return res;
+            }
         }
 
         public JArray GetStudents()
@@ -48,6 +49,16 @@ namespace Demo.API.Controllers
             var res = JArray.Parse(str);
 
             return res;
+        }
+
+        public string ToJsonString(Object obj)
+        {
+            JsonSerializerSettings jsSettings = new JsonSerializerSettings
+            {
+                ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+            };
+
+            return JsonConvert.SerializeObject(obj, jsSettings);
         }
     }
 }

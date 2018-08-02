@@ -1,4 +1,4 @@
-import { getMineData, getUsers } from '../services/student';
+import { getMineData, getUsersData } from '../services/student';
 
 //request('/api/user/getstudents');
 
@@ -7,7 +7,7 @@ export default {
 
   state: {
     mineData: [],
-    //users:[]
+    users: [],
   },
 
   effects: {
@@ -19,27 +19,27 @@ export default {
       });
     },
     *getUsers(_, { call, put }) {
-      const response = yield call(getUsers);
+      const response = yield call(getUsersData);
       yield put({
-        type: 'getUsers',
+        type: 'users',
         payload: response,
       });
     },
   },
 
   reducers: {
-    myGet(state, { payload }) {
+    myGet(state, action) {
       return {
         // ...state,
         // ...payload
-        mineData: payload,
+        mineData: action.payload,
       };
     },
-    getUsers(state, { payload }) {
+    users(state, action) {
       return {
-        // ...state,
+        state,
         // ...payload
-        users: payload,
+        users: action.payload,
       };
     },
   },
