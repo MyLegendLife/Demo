@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\Demo\Demo.IDAL\bin\Debug\Demo.IDAL.dll
+C:\Users\Administrator\Desktop\Demo\Demo.IDAL\bin\Debug\Demo.IDAL.pdb
+C:\Users\Administrator\Desktop\Demo\Demo.IDAL\bin\Debug\Demo.Model.dll
+C:\Users\Administrator\Desktop\Demo\Demo.IDAL\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\Demo\Demo.IDAL\bin\Debug\Demo.Model.pdb
+C:\Users\Administrator\Desktop\Demo\Demo.IDAL\bin\Debug\Demo.Model.dll.config
+C:\Users\Administrator\Desktop\Demo\Demo.IDAL\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\Demo\Demo.IDAL\obj\Debug\Demo.IDAL.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Demo\Demo.IDAL\obj\Debug\Demo.IDAL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Demo\Demo.IDAL\obj\Debug\Demo.IDAL.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Demo\Demo.IDAL\obj\Debug\Demo.IDAL.dll
+C:\Users\Administrator\Desktop\Demo\Demo.IDAL\obj\Debug\Demo.IDAL.pdb

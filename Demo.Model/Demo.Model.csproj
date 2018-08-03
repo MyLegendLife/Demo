@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B83FFA9A-D351-4EFB-838F-70822C2C7C3F}</ProjectGuid>
+    <ProjectGuid>{AB9613F6-502C-46E5-A305-A63BB27D6D78}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Demo.Model</RootNamespace>
@@ -50,6 +50,7 @@
     <Compile Include="DemoContext.cs" />
     <Compile Include="Entities\Framework\EntityBase.cs" />
     <Compile Include="Entities\Record.cs" />
+    <Compile Include="Entities\Customer.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

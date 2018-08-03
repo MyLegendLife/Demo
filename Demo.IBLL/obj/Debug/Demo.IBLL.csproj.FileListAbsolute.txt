@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\Demo\Demo.IBLL\bin\Debug\Demo.IBLL.dll
+C:\Users\Administrator\Desktop\Demo\Demo.IBLL\bin\Debug\Demo.IBLL.pdb
+C:\Users\Administrator\Desktop\Demo\Demo.IBLL\bin\Debug\Demo.Model.dll
+C:\Users\Administrator\Desktop\Demo\Demo.IBLL\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\Demo\Demo.IBLL\bin\Debug\Demo.Model.pdb
+C:\Users\Administrator\Desktop\Demo\Demo.IBLL\bin\Debug\Demo.Model.dll.config
+C:\Users\Administrator\Desktop\Demo\Demo.IBLL\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\Demo\Demo.IBLL\obj\Debug\Demo.IBLL.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Demo\Demo.IBLL\obj\Debug\Demo.IBLL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Demo\Demo.IBLL\obj\Debug\Demo.IBLL.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Demo\Demo.IBLL\obj\Debug\Demo.IBLL.dll
+C:\Users\Administrator\Desktop\Demo\Demo.IBLL\obj\Debug\Demo.IBLL.pdb

@@ -1,4 +1,4 @@
-﻿using Demo.DAL;
+﻿using Demo.Model;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -28,18 +28,21 @@ namespace Demo.API.Controllers
             //    return jsonData.ToString();
             //} 
 
-            using (var context = new DemoContext())
-            {
-                var users = context.Users;
+            //using (var context = new DemoContext())
+            //{
+            //    var users = context.Users;
 
-                //string json = JsonConvert.SerializeObject(users);
+            //    //string json = JsonConvert.SerializeObject(users);
 
-                string json = ToJsonString(users);
+            //    string json = ToJsonString(users);
 
-                var res = JArray.Parse(json);
+            //    var res = JArray.Parse(json);
                 
-                return res;
-            }
+            //    return res;
+            //}
+
+
+            return null;
         }
 
         public JArray GetStudents()

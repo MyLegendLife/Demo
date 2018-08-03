@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\Demo.DAL.dll
+C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\Demo.DAL.pdb
+C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\Demo.IDAL.dll
+C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\Demo.Model.dll
+C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\Demo.Model.pdb
+C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\Demo.Model.dll.config
+C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\Demo.IDAL.pdb
+C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\Demo\Demo.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\Demo\Demo.DAL\obj\Debug\Demo.DAL.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Demo\Demo.DAL\obj\Debug\Demo.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Demo\Demo.DAL\obj\Debug\Demo.DAL.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Demo\Demo.DAL\obj\Debug\Demo.DAL.dll
+C:\Users\Administrator\Desktop\Demo\Demo.DAL\obj\Debug\Demo.DAL.pdb

@@ -12,6 +12,7 @@ namespace Demo.Model
 
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Record> Records { get; set; }
+        public virtual DbSet<Customer> Customers { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

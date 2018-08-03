@@ -92,6 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -111,6 +112,20 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.BLLContainer\Demo.BLLContainer.csproj">
+      <Project>{62be321e-80b5-4b1e-8c94-83234e1bf3fc}</Project>
+      <Name>Demo.BLLContainer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Demo.IBLL\Demo.IBLL.csproj">
+      <Project>{0d12e57d-f5c2-4d85-904c-160b5322d211}</Project>
+      <Name>Demo.IBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Demo.Model\Demo.Model.csproj">
+      <Project>{ab9613f6-502c-46e5-a305-a63bb27d6d78}</Project>
+      <Name>Demo.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
