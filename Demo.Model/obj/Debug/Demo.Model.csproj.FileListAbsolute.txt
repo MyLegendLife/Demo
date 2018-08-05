@@ -10,3 +10,6 @@ C:\Users\Administrator\Desktop\Demo\Demo.Model\obj\Debug\Demo.Model.csproj.CoreC
 C:\Users\Administrator\Desktop\Demo\Demo.Model\obj\Debug\Demo.Model.csproj.CopyComplete
 C:\Users\Administrator\Desktop\Demo\Demo.Model\obj\Debug\Demo.Model.dll
 C:\Users\Administrator\Desktop\Demo\Demo.Model\obj\Debug\Demo.Model.pdb
+C:\Users\Administrator\Desktop\Demo\Demo.Model\obj\Debug\Demo.Model.Migrations.gx.resources
+C:\Users\Administrator\Desktop\Demo\Demo.Model\obj\Debug\Demo.Model.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Demo\Demo.Model\obj\Debug\Demo.Model.Migrations.gx1.resources

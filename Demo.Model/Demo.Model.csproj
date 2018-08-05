@@ -52,14 +52,30 @@
     <Compile Include="Entities\Record.cs" />
     <Compile Include="Entities\Customer.cs" />
     <Compile Include="Entities\User.cs" />
+    <Compile Include="Mappings\CustomerMapping.cs" />
+    <Compile Include="Migrations\201808051243095_gx.cs" />
+    <Compile Include="Migrations\201808051243095_gx.Designer.cs">
+      <DependentUpon>201808051243095_gx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808051318490_gx1.cs" />
+    <Compile Include="Migrations\201808051318490_gx1.Designer.cs">
+      <DependentUpon>201808051318490_gx1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Mappings\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201808051243095_gx.resx">
+      <DependentUpon>201808051243095_gx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808051318490_gx1.resx">
+      <DependentUpon>201808051318490_gx1.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
