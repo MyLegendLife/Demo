@@ -17,5 +17,10 @@ namespace Demo.BLL
         {
             Dal = CustomerDAL;
         }
+
+        public Customer Get(Guid id)
+        {
+            return CustomerDAL.Get(id);
+        }
     }
 }

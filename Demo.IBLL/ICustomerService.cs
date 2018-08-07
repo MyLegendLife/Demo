@@ -9,6 +9,6 @@ namespace Demo.IBLL
 {
     public partial interface ICustomerService : IBaseService<Customer>
     {
-
+        Customer Get(Guid id);
     }
 }

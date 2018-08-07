@@ -33,7 +33,7 @@ namespace Demo.API.Controllers
 
             List<Customer> list = customerService.GetModels(p => true).ToList();
 
-            //Customer xx = customerService.Get(Guid.Parse("866CBB2C-4749-401C-86FA-9518ADE6411E"));
+            Customer xx = customerService.Get(Guid.Parse("866CBB2C-4749-401C-86FA-9518ADE6411E"));
 
             return "123";
         }

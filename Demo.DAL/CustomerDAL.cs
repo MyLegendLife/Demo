@@ -27,6 +27,11 @@ namespace Demo.DAL
         //            select a;
         //}
 
-        
+        private DbContext dbContext = DbContextFactory.Create();
+
+        public Customer Get(Guid id)
+        {
+            return dbContext.Set<Customer>().Where(a => a.Id == id).FirstOrDefault();
+        }
     }
 }
