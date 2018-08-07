@@ -5,6 +5,6 @@ namespace Demo.IDAL
 {
     public partial interface ICustomerDAL : IBaseDAL<Customer>
     {
-        
+        //Customer Get(Guid id);
     }
 }

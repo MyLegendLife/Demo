@@ -5,6 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using Demo.IDAL;
+using Demo.Model.Entities.Framework;
 
 namespace Demo.BLL
 {

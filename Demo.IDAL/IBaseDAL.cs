@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Demo.Model.Entities.Framework;
+using System;
 using System.Linq;
 using System.Linq.Expressions;
 
 namespace Demo.IDAL
 {
-    public partial interface IBaseDAL<T> where T:class,new()
+    public partial interface IBaseDAL<T> where T : class, new()
     {
         void Add(T t);
         void Delete(T t);

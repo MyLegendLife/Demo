@@ -21,7 +21,19 @@ namespace Demo.API.Controllers
 
         public string GetCustomers()
         {
+            //Customer customer = new Customer()
+            //{
+            //    Id = Guid.NewGuid(),
+            //    Name = "大家庭",
+            //    Tel = "13555555555",
+            //    Level = 5
+            //};
+
+            //customerService.Add(customer);
+
             List<Customer> list = customerService.GetModels(p => true).ToList();
+
+            //Customer xx = customerService.Get(Guid.Parse("866CBB2C-4749-401C-86FA-9518ADE6411E"));
 
             return "123";
         }

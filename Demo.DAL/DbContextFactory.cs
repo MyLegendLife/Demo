@@ -16,7 +16,7 @@ namespace Demo.DAL
         /// </summary>
         public static DbContext Create()
         {
-            DbContext dbContext = CallContext.GetData("DbContext") as DbContext;
+            DbContext dbContext = CallContext.GetData("DemoContext") as DbContext;
             if (dbContext == null)
             {
                 dbContext = new DemoContext();

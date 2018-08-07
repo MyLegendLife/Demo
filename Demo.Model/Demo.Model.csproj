@@ -52,6 +52,7 @@
     <Compile Include="Entities\Record.cs" />
     <Compile Include="Entities\Customer.cs" />
     <Compile Include="Entities\User.cs" />
+    <Compile Include="Mappings\RecordMapping.cs" />
     <Compile Include="Mappings\CustomerMapping.cs" />
     <Compile Include="Migrations\201808051243095_gx.cs" />
     <Compile Include="Migrations\201808051243095_gx.Designer.cs">

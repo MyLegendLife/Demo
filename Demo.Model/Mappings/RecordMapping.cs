@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace Demo.Model.Mappings
 {
-    public class CustomerMapping : EntityTypeConfiguration<Customer>
+    public class RecordMapping : EntityTypeConfiguration<Record>
     {
-        public CustomerMapping()
+        public RecordMapping()
         {
-            Property(x => x.Name).IsRequired().HasMaxLength(50);
+            
         }
     }
 }

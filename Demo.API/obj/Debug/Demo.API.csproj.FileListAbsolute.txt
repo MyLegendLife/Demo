@@ -162,3 +162,5 @@ C:\Users\Administrator\Desktop\Demo\Demo.API\bin\Demo.IDAL.pdb
 C:\Users\Administrator\Desktop\Demo\Demo.API\bin\Demo.DALContainer.pdb
 C:\Users\Administrator\Desktop\Demo\Demo.API\bin\Demo.DAL.pdb
 C:\Users\Administrator\Desktop\Demo\Demo.API\obj\Debug\Demo.API.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Demo\Demo.API\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\Demo\Demo.API\bin\EntityFramework.SqlServer.xml

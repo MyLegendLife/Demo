@@ -2,6 +2,7 @@
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using System.Linq;
 using Demo.Model.Entities;
 
 namespace Demo.Model
@@ -19,14 +20,18 @@ namespace Demo.Model
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+            //base.OnModelCreating(modelBuilder);
 
-            //var mappings = GetType().Assembly.GetInheritedTypes(typeof(EntityTypeConfiguration<>));
-            //foreach (var mapping in mappings)
-            //{
-            //    dynamic instance = Activator.CreateInstance(mapping);
-            //    modelBuilder.Configurations.Add(instance);
-            //}
+            var baseType = typeof(EntityTypeConfiguration<>);
+            var mappings = GetType().Assembly.GetTypes().
+                Where(x => x.BaseType != null && x.BaseType.Namespace == baseType.Namespace && x.BaseType.Name == baseType.Name)
+               .ToList();
+
+            foreach (var mapping in mappings)
+            {
+                dynamic instance = Activator.CreateInstance(mapping);
+                modelBuilder.Configurations.Add(instance);
+            }
 
             //去掉表明复数
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();

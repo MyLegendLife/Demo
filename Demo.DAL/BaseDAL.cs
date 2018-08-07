@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Demo.Model.Entities.Framework;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.Migrations;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Demo.DAL
 {
-    public partial class BaseDAL<T> where T : class, new()
+    public partial class BaseDAL<T> where T : class, new() 
     {
         private DbContext dbContext = DbContextFactory.Create();
 
