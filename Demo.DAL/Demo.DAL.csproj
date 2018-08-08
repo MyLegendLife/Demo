@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="RecordDAL.cs" />
     <Compile Include="CustomerDAL.cs" />
     <Compile Include="BaseDAL.cs" />
     <Compile Include="DbContextFactory.cs" />

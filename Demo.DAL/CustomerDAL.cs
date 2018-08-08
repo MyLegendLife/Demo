@@ -13,25 +13,27 @@ namespace Demo.DAL
 {
     public partial class CustomerDAL : BaseDAL<Customer>, ICustomerDAL
     {
-        //private DbContext dbContext = DbContextFactory.Create();
-
-        //public Customer Get(string id)
-        //{
-        //    if (string.IsNullOrWhiteSpace(id))
-        //    {
-        //        return null;
-        //    }
-
-        //    var x = from a in dbContext.Set<Customer>()
-        //            where a.Id == id
-        //            select a;
-        //}
-
         private DbContext dbContext = DbContextFactory.Create();
 
         public Customer Get(Guid id)
         {
             return dbContext.Set<Customer>().Where(a => a.Id == id).FirstOrDefault();
+        }
+
+        public int GetLevel(Guid id)
+        {
+            var query = dbContext.Set<Customer>();
+
+            var ret = from a in query
+                      where a.Id == id
+                      select a.Level;
+
+            return ret.Count() > 0 ? ret.FirstOrDefault() : -1;
+        }
+
+        public async Task<Customer> GetAsync(Guid id)
+        {
+            return await dbContext.Set<Customer>().FindAsync(id);
         }
     }
 }

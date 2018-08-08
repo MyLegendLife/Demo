@@ -10,12 +10,12 @@ namespace Demo.Model.Entities
 
         }
 
-        public String Type { get; set; }
+        public string Type { get; set; }
 
         public DateTime RecordDate { get; set; }
 
-        public String UserId { get; set; }
+        public Guid CustomerId { get; set; }
 
-        public virtual User User { get; set; }
+        public virtual Customer Customer { get; set; }
     }
 }

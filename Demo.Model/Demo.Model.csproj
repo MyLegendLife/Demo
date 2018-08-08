@@ -51,7 +51,6 @@
     <Compile Include="Entities\Framework\EntityBase.cs" />
     <Compile Include="Entities\Record.cs" />
     <Compile Include="Entities\Customer.cs" />
-    <Compile Include="Entities\User.cs" />
     <Compile Include="Mappings\RecordMapping.cs" />
     <Compile Include="Mappings\CustomerMapping.cs" />
     <Compile Include="Migrations\201808051243095_gx.cs" />
@@ -61,6 +60,10 @@
     <Compile Include="Migrations\201808051318490_gx1.cs" />
     <Compile Include="Migrations\201808051318490_gx1.Designer.cs">
       <DependentUpon>201808051318490_gx1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201808080615242_gx2.cs" />
+    <Compile Include="Migrations\201808080615242_gx2.Designer.cs">
+      <DependentUpon>201808080615242_gx2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,6 +79,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808051318490_gx1.resx">
       <DependentUpon>201808051318490_gx1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808080615242_gx2.resx">
+      <DependentUpon>201808080615242_gx2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

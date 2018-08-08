@@ -9,7 +9,6 @@ namespace Demo.Model
 {
     public class DemoContext : DbContext
     {
-        public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Record> Records { get; set; }
         public virtual DbSet<Customer> Customers { get; set; }
 

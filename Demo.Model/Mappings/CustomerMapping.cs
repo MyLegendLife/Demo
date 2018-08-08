@@ -13,6 +13,8 @@ namespace Demo.Model.Mappings
         public CustomerMapping()
         {
             Property(x => x.Name).IsRequired().HasMaxLength(50);
+
+            MapToStoredProcedures();
         }
     }
 }

@@ -10,5 +10,7 @@ namespace Demo.IBLL
     public partial interface ICustomerService : IBaseService<Customer>
     {
         Customer Get(Guid id);
+        int GetLevel(Guid id);
+        Task<Customer> GetAsync(Guid id);
     }
 }

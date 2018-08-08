@@ -17,7 +17,7 @@ namespace Demo.API.Controllers
     [EnableCors("http://localhost","*","*")]
     public class CustomerController : ApiController
     {
-        private ICustomerService customerService = BLLContainer.Container.Resolve<ICustomerService>();
+        private ICustomerService CustomerService = BLLContainer.Container.Resolve<ICustomerService>();
 
         public string GetCustomers()
         {
@@ -31,11 +31,27 @@ namespace Demo.API.Controllers
 
             //customerService.Add(customer);
 
-            List<Customer> list = customerService.GetModels(p => true).ToList();
+            List<Customer> list = CustomerService.GetModels(p => true).ToList();
 
-            Customer xx = customerService.Get(Guid.Parse("866CBB2C-4749-401C-86FA-9518ADE6411E"));
+            Customer xx = CustomerService.Get(Guid.Parse("866CBB2C-4749-401C-86FA-9518ADE6411E"));
 
-            return "123";
+            int x = CustomerService.GetLevel(Guid.Parse("866CBB2C-4749-401C-86FA-9518ADE64113"));
+
+            return x.ToString();
+        }
+
+        [HttpGet]
+        public string Test(string id)
+        {
+            //string id = httpquer
+
+            var ss = CustomerService.GetAsync(Guid.Parse("866CBB2C-4749-401C-86FA-9518ADE64113"));
+
+            string x = ""; 
+
+            string y = x + "22";
+
+            return id;
         }
     }
 }

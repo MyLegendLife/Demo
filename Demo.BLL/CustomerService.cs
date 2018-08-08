@@ -11,16 +11,26 @@ namespace Demo.BLL
 {
     public partial class CustomerService : BaseService<Customer>, ICustomerService
     {
-        private ICustomerDAL CustomerDAL = DALContainer.Container.Resolve<ICustomerDAL>();
+        private ICustomerDAL customerDAL = DALContainer.Container.Resolve<ICustomerDAL>();
 
         public override void SetDal()
         {
-            Dal = CustomerDAL;
+            Dal = customerDAL;
         }
 
         public Customer Get(Guid id)
         {
-            return CustomerDAL.Get(id);
+            return customerDAL.Get(id);
+        }
+
+        public int GetLevel(Guid id)
+        {
+            return customerDAL.GetLevel(id);
+        }
+
+        public Task<Customer> GetAsync(Guid id)
+        {
+            return customerDAL.GetAsync(id);
         }
     }
 }

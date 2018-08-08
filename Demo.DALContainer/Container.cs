@@ -4,6 +4,7 @@ using Demo.IDAL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -46,6 +47,10 @@ namespace Demo.DALContainer
             var builder = new ContainerBuilder();
             //格式：builder.RegisterType<xxxx>().As<Ixxxx>().InstancePerLifetimeScope();
             builder.RegisterType<CustomerDAL>().As<ICustomerDAL>().InstancePerLifetimeScope();
+            builder.RegisterType<RecordDAL>().As<IRecordDAL>().InstancePerLifetimeScope();
+
+            //builder.RegisterAssemblyTypes(Assembly.GetExecutingAssembly()).AsImplementedInterfaces().AsSelf();
+
             container = builder.Build();
         }
     }
