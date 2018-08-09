@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Demo.Model.Entities.Framework;
+using Newtonsoft.Json;
 
 namespace Demo.Model.Entities
 {
@@ -17,7 +18,6 @@ namespace Demo.Model.Entities
 
         public Int32 Level { get; set; }
 
-        //[JsonIgnore]
         public virtual ICollection<Record> Records { get; set; }
     }
 }

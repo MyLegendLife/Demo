@@ -1,4 +1,5 @@
 ﻿using Demo.IBLL;
+using Demo.Infrastructure.ApiResult;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,19 +11,30 @@ namespace Demo.API.Controllers
 {
     public class RecordController : ApiController
     {
-        private IRecordService RecordService = BLLContainer.Container.Resolve<IRecordService>();
+        private IRecordService recordService = BLLContainer.Container.Resolve<IRecordService>();
 
-        public string GetRecords()
+        public IHttpActionResult GetRecords()
         {
             Guid xddf = Guid.Parse("866cbb2c-4749-401c-86fa-9518ade6411e");
 
-            var x = RecordService.GetModels(a => a.Customer.Id == xddf);
+            var x = recordService.GetModels(a => a.Customer.Id == xddf).ToList();
 
-
+            StandardResult res = new StandardResult(x, Request);
 
             int dd = x.Count();
 
-            return dd.ToString();
+           
+            return res;
+        }
+
+        [HttpGet]
+        public string Test()
+        {
+            var x = recordService.SelectRecords("大家庭");
+
+            int ss= x.Count();
+
+            return "123";
         }
     }
 }

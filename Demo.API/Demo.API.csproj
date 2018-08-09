@@ -128,6 +128,10 @@
       <Project>{0d12e57d-f5c2-4d85-904c-160b5322d211}</Project>
       <Name>Demo.IBLL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Demo.Infrastructure\Demo.Infrastructure.csproj">
+      <Project>{c221362c-0231-4a2e-9a73-15eb0e986309}</Project>
+      <Name>Demo.Infrastructure</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Demo.Model\Demo.Model.csproj">
       <Project>{ab9613f6-502c-46e5-a305-a63bb27d6d78}</Project>
       <Name>Demo.Model</Name>

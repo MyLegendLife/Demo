@@ -10,3 +10,5 @@ C:\Users\Administrator\Desktop\Demo\Demo.IBLL\obj\Debug\Demo.IBLL.csproj.CoreCom
 C:\Users\Administrator\Desktop\Demo\Demo.IBLL\obj\Debug\Demo.IBLL.csproj.CopyComplete
 C:\Users\Administrator\Desktop\Demo\Demo.IBLL\obj\Debug\Demo.IBLL.dll
 C:\Users\Administrator\Desktop\Demo\Demo.IBLL\obj\Debug\Demo.IBLL.pdb
+C:\Users\Administrator\Desktop\Demo\Demo.IBLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Demo\Demo.IBLL\bin\Debug\Newtonsoft.Json.xml

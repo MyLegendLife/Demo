@@ -9,6 +9,6 @@ namespace Demo.IBLL
 {
     public partial interface IRecordService : IBaseService<Record>
     {
-        
+        List<Record> SelectRecords(string customerName);
     }
 }

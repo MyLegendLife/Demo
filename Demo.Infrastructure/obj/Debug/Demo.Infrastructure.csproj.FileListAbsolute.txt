@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\Demo\Demo.Infrastructure\bin\Debug\Demo.Infrastructure.dll
+C:\Users\Administrator\Desktop\Demo\Demo.Infrastructure\bin\Debug\Demo.Infrastructure.pdb
+C:\Users\Administrator\Desktop\Demo\Demo.Infrastructure\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Demo\Demo.Infrastructure\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Desktop\Demo\Demo.Infrastructure\bin\Debug\System.Web.Http.dll
+C:\Users\Administrator\Desktop\Demo\Demo.Infrastructure\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Desktop\Demo\Demo.Infrastructure\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Demo\Demo.Infrastructure\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Desktop\Demo\Demo.Infrastructure\bin\Debug\System.Web.Http.xml
+C:\Users\Administrator\Desktop\Demo\Demo.Infrastructure\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Desktop\Demo\Demo.Infrastructure\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\Users\Administrator\Desktop\Demo\Demo.Infrastructure\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+C:\Users\Administrator\Desktop\Demo\Demo.Infrastructure\obj\Debug\Demo.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Demo\Demo.Infrastructure\obj\Debug\Demo.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Demo\Demo.Infrastructure\obj\Debug\Demo.Infrastructure.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Demo\Demo.Infrastructure\obj\Debug\Demo.Infrastructure.dll
+C:\Users\Administrator\Desktop\Demo\Demo.Infrastructure\obj\Debug\Demo.Infrastructure.pdb

@@ -16,3 +16,5 @@ C:\Users\Administrator\Desktop\Demo\Demo.DALContainer\obj\Debug\Demo.DALContaine
 C:\Users\Administrator\Desktop\Demo\Demo.DALContainer\obj\Debug\Demo.DALContainer.csproj.CopyComplete
 C:\Users\Administrator\Desktop\Demo\Demo.DALContainer\obj\Debug\Demo.DALContainer.dll
 C:\Users\Administrator\Desktop\Demo\Demo.DALContainer\obj\Debug\Demo.DALContainer.pdb
+C:\Users\Administrator\Desktop\Demo\Demo.DALContainer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Demo\Demo.DALContainer\bin\Debug\Newtonsoft.Json.xml

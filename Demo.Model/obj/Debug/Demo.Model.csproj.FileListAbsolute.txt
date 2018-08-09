@@ -14,3 +14,5 @@ C:\Users\Administrator\Desktop\Demo\Demo.Model\obj\Debug\Demo.Model.Migrations.g
 C:\Users\Administrator\Desktop\Demo\Demo.Model\obj\Debug\Demo.Model.csproj.GenerateResource.cache
 C:\Users\Administrator\Desktop\Demo\Demo.Model\obj\Debug\Demo.Model.Migrations.gx1.resources
 C:\Users\Administrator\Desktop\Demo\Demo.Model\obj\Debug\Demo.Model.Migrations.gx2.resources
+C:\Users\Administrator\Desktop\Demo\Demo.Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Demo\Demo.Model\bin\Debug\Newtonsoft.Json.xml

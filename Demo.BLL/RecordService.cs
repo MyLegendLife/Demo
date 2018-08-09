@@ -17,5 +17,10 @@ namespace Demo.BLL
         {
             Dal = recordDAL;
         }
+
+        public List<Record> SelectRecords(string customerName)
+        {
+            return recordDAL.SelectRecords(customerName);
+        }
     }
 }

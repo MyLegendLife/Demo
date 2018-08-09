@@ -10,3 +10,5 @@ C:\Users\Administrator\Desktop\Demo\Demo.IDAL\obj\Debug\Demo.IDAL.csproj.CoreCom
 C:\Users\Administrator\Desktop\Demo\Demo.IDAL\obj\Debug\Demo.IDAL.csproj.CopyComplete
 C:\Users\Administrator\Desktop\Demo\Demo.IDAL\obj\Debug\Demo.IDAL.dll
 C:\Users\Administrator\Desktop\Demo\Demo.IDAL\obj\Debug\Demo.IDAL.pdb
+C:\Users\Administrator\Desktop\Demo\Demo.IDAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Demo\Demo.IDAL\bin\Debug\Newtonsoft.Json.xml

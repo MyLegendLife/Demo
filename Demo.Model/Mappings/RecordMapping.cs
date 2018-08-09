@@ -13,6 +13,7 @@ namespace Demo.Model.Mappings
         public RecordMapping()
         {
             
+            
         }
     }
 }

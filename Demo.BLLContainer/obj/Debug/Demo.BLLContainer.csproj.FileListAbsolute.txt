@@ -22,3 +22,5 @@ C:\Users\Administrator\Desktop\Demo\Demo.BLLContainer\obj\Debug\Demo.BLLContaine
 C:\Users\Administrator\Desktop\Demo\Demo.BLLContainer\obj\Debug\Demo.BLLContainer.csproj.CopyComplete
 C:\Users\Administrator\Desktop\Demo\Demo.BLLContainer\obj\Debug\Demo.BLLContainer.dll
 C:\Users\Administrator\Desktop\Demo\Demo.BLLContainer\obj\Debug\Demo.BLLContainer.pdb
+C:\Users\Administrator\Desktop\Demo\Demo.BLLContainer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Demo\Demo.BLLContainer\bin\Debug\Newtonsoft.Json.xml

@@ -10,6 +10,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Cors;
+using System.Web.Http.Results;
 using System.Web.Script.Serialization;
 
 namespace Demo.API.Controllers
@@ -17,7 +18,7 @@ namespace Demo.API.Controllers
     [EnableCors("http://localhost","*","*")]
     public class CustomerController : ApiController
     {
-        private ICustomerService CustomerService = BLLContainer.Container.Resolve<ICustomerService>();
+        private ICustomerService customerService = BLLContainer.Container.Resolve<ICustomerService>();
 
         public string GetCustomers()
         {
@@ -31,11 +32,11 @@ namespace Demo.API.Controllers
 
             //customerService.Add(customer);
 
-            List<Customer> list = CustomerService.GetModels(p => true).ToList();
+            List<Customer> list = customerService.GetModels(p => true).ToList();
 
-            Customer xx = CustomerService.Get(Guid.Parse("866CBB2C-4749-401C-86FA-9518ADE6411E"));
+            Customer xx = customerService.Get(Guid.Parse("866CBB2C-4749-401C-86FA-9518ADE6411E"));
 
-            int x = CustomerService.GetLevel(Guid.Parse("866CBB2C-4749-401C-86FA-9518ADE64113"));
+            int x = customerService.GetLevel(Guid.Parse("866CBB2C-4749-401C-86FA-9518ADE64113"));
 
             return x.ToString();
         }
@@ -43,9 +44,10 @@ namespace Demo.API.Controllers
         [HttpGet]
         public string Test(string id)
         {
+
             //string id = httpquer
 
-            var ss = CustomerService.GetAsync(Guid.Parse("866CBB2C-4749-401C-86FA-9518ADE64113"));
+            var ss = customerService.GetAsync(Guid.Parse("866CBB2C-4749-401C-86FA-9518ADE64113"));
 
             string x = ""; 
 
